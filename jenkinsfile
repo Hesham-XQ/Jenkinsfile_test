@@ -1,0 +1,12 @@
+node {
+    def mvnHome
+    stage('build') { // for display purposes
+     echo 'build completed...'
+    }
+    stage('test') {
+      echo 'test completed...'
+    }
+    stage('deploy') {
+     echo 'deploy completed...'
+    }
+}

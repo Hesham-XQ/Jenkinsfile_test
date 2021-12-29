@@ -1,5 +1,4 @@
 node {
-    def mvnHome
     stage('build') { // for display purposes
      echo 'build completed...'
     }
